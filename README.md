@@ -21,7 +21,8 @@ This test will take under 10 minutes, give a very exact prediction and honest fe
 # Code related information
 
 1. The user starts on the index.html page
-- here the user enters very few basic informations by which he will be categorized
+- all other important files are listed in the "js" folder and the subsequent folders there
+- on the "index.html" page, the user enters very few basic informations by which he will be categorized
 - for example in the category for women who are still at school and already have successfully passed class 10 
 - the "index.js" file evaluates the entered information and forwards the user to a customized page
 - let us assume that an example user enters that she is female, she is still in school and has succesfully passed 10th grade
