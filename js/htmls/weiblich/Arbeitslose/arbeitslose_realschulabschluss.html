@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <select id="zeitart_select">
+    <option value="nichts ausgewählt">
+      Bitte wähle aus ob du zuletzt in Voll oder Teilzeit gearbeitet hast:
+    </option>
+    <option value="0">Vollzeit</option>
+    <option value="1">Teilzeit</option>
+  </select>
+  <br />
+  <br />
+
+  <select id="industrie_select">
+    <option value="nichts ausgewählt">
+      Bitte wähle die Industrie aus in der du zuletzt gearbeitet hast:
+    </option>
+    <option value="0">Produktion & Logistik</option>
+    <option value="1">Einzelhandel</option>
+    <option value="2">Bankwesen</option>
+    <option value="3">Vertrieb</option>
+    <option value="4">Kundenservice</option>
+    <option value="5">Beratungsdienstleistungen</option>
+    <option value="6">Baugewerbe</option>
+    <option value="7">Pflege</option>
+    <option value="8">öffentlicher Dienst</option>
+  </select>
+  <br />
+  <br />
+
+  <select id="happiness_select">
+    <option value="nichts ausgewählt">
+      Bitte wähle aus wie glücklich du mit deiner letzten Tätigkeit warst:
+    </option>
+    <option value="0">Katastrophal - ich hasse es</option>
+    <option value="1">Nicht gut - wenn sich eine Gelegenheit bietet gehe ich</option>
+    <option value="2">Macht keinen Spaß - aber es lässt sich aushalten</option>
+    <option value="3">Es ist ok - neutral</option>
+    <option value="4">Es ist ganz gut - Ich komme ganz gut durch den Tag</option>
+    <option value="5">Es ist gut - Ich genieße es sogar ab und zu zu arbeiten </option>
+    <option value="6">Top - Ich liebe meine Tätigkeit</option>
+  </select>
+  <br />
+  <br />
+
+  <select id="plus_select">
+    <option value="nichts ausgewählt">
+      Bitte wähle aus was dir an deiner letzten Tätigkeit am besten gefallen hat:
+    </option>
+    <option value="0">Umfeld - Mitarbeiterkollegen</option>
+    <option value="1">Die Tätigkeit ist sinnerfüllend</option>
+    <option value="2">Die Bezahlung</option>
+    <option value="3">Ich habe einen sehr guten Chef</option>
+    <option value="4">Gute Arbeitszeiten</option>
+    <option value="5">Geringe Fahrtzeiten zur Tätigkeit</option>
+    <option value="6">Nichts von allem ausgewählten. Die Mittagspause ist das beste.</option>
+  </select>
+  <br />
+  <br />
+
+  <select id="minus_select">
+    <option value="nichts ausgewählt">
+      Bitte wähle aus was dich an deiner letzten Tätigkeit am meisten gestört hat:
+    </option>
+    <option value="0">Umfeld - Mitarbeiterkollegen</option>
+    <option value="1">Die Tätigkeit ist sinnfrei und nicht anspruchsvoll</option>
+    <option value="2">Die Bezahlung</option>
+    <option value="3">Der Chef</option>
+    <option value="4">Schlechte Arbeitszeiten</option>
+    <option value="5">Zu hohe Fahrtzeiten zur Tätigkeit</option>
+    <option value="6">Alle zuvor genannten Punkte zusammen</option>
+  </select>
+  <br />
+  <br />
+  <p>Jetzt kommen ein paar persönliche Fragen, um festzustellen, was deine Stärken sind, was dir Spaß macht und worin du
+    möglicherweise gut bist, damit du die ideale Berfusempfehlung bekommen kannst.</p>
+<br>
+<br>
+    <b>1. Ich schätze die Schönheit der Natur sehr</b>
+<br>
+  <input id="personality_1_1" name="group1" type="radio" value="1">1</input>
+  <input id="personality_1_2" name="group1" type="radio" value="2">2</input>
+  <input id="personality_1_3" name="group1" type="radio" value="3">3</input>
+  <input id="personality_1_4" name="group1" type="radio" value="4">4</input>
+  <input id="personality_1_5" name="group1" type="radio" value="5">5</input>
+  <input id="personality_1_6" name="group1" type="radio" value="6">6</input>
+  <input id="personality_1_7" name="group1" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>2. Ordnung und Struktur sind für mich ganz wichtig</b>
+  <br />
+
+  <input id="personality_2_1" name="group2" type="radio" value="1">1</input>
+  <input id="personality_2_2" name="group2" type="radio" value="2">2</input>
+  <input id="personality_2_3" name="group2" type="radio" value="3">3</input>
+  <input id="personality_2_4" name="group2" type="radio" value="4">4</input>
+  <input id="personality_2_5" name="group2" type="radio" value="5">5</input>
+  <input id="personality_2_6" name="group2" type="radio" value="6">6</input>
+  <input id="personality_2_7" name="group2" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>3. In Gegenwart anderer Menschen habe ich mehr Energie als alleine</b>
+  <br />
+
+  <input id="personality_3_1" name="group3" type="radio" value="1">1</input>
+  <input id="personality_3_2" name="group3" type="radio" value="2">2</input>
+  <input id="personality_3_3" name="group3" type="radio" value="3">3</input>
+  <input id="personality_3_4" name="group3" type="radio" value="4">4</input>
+  <input id="personality_3_5" name="group3" type="radio" value="5">5</input>
+  <input id="personality_3_6" name="group3" type="radio" value="6">6</input>
+  <input id="personality_3_7" name="group3" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>4. Mir fällt es schwer nein zu sagen </b>
+  <br />
+
+  <input id="personality_4_1" name="group4" type="radio" value="1">1</input>
+  <input id="personality_4_2" name="group4" type="radio" value="2">2</input>
+  <input id="personality_4_3" name="group4" type="radio" value="3">3</input>
+  <input id="personality_4_4" name="group4" type="radio" value="4">4</input>
+  <input id="personality_4_5" name="group4" type="radio" value="5">5</input>
+  <input id="personality_4_6" name="group4" type="radio" value="6">6</input>
+  <input id="personality_4_7" name="group4" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>5. Tritt ein negatives Ereignis auf, dann wirft mich das sehr leicht aus der Bahn</b>
+  <br />
+
+  <input id="personality_5_1" name="group5" type="radio" value="1">1</input>
+  <input id="personality_5_2" name="group5" type="radio" value="2">2</input>
+  <input id="personality_5_3" name="group5" type="radio" value="3">3</input>
+  <input id="personality_5_4" name="group5" type="radio" value="4">4</input>
+  <input id="personality_5_5" name="group5" type="radio" value="5">5</input>
+  <input id="personality_5_6" name="group5" type="radio" value="6">6</input>
+  <input id="personality_5_7" name="group5" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>6. Ich genieße gerne die Schönheit der Natur </b>
+  <br />
+
+  <input id="personality_6_1" name="group6" type="radio" value="1">1</input>
+  <input id="personality_6_2" name="group6" type="radio" value="2">2</input>
+  <input id="personality_6_3" name="group6" type="radio" value="3">3</input>
+  <input id="personality_6_4" name="group6" type="radio" value="4">4</input>
+  <input id="personality_6_5" name="group6" type="radio" value="5">5</input>
+  <input id="personality_6_6" name="group6" type="radio" value="6">6</input>
+  <input id="personality_6_7" name="group6" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>7. Beginne ich etwas, dann führe ich das auch zu Ende</b>
+  <br />
+
+  <input id="personality_7_1" name="group7" type="radio" value="1">1</input>
+  <input id="personality_7_2" name="group7" type="radio" value="2">2</input>
+  <input id="personality_7_3" name="group7" type="radio" value="3">3</input>
+  <input id="personality_7_4" name="group7" type="radio" value="4">4</input>
+  <input id="personality_7_5" name="group7" type="radio" value="5">5</input>
+  <input id="personality_7_6" name="group7" type="radio" value="6">6</input>
+  <input id="personality_7_7" name="group7" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>8. In Gruppenarbeiten habe ich meist bessere Ergebnisse als wenn ich etwas alleine mache </b>
+  <br />
+
+  <input id="personality_8_1" name="group8" type="radio" value="1">1</input>
+  <input id="personality_8_2" name="group8" type="radio" value="2">2</input>
+  <input id="personality_8_3" name="group8" type="radio" value="3">3</input>
+  <input id="personality_8_4" name="group8" type="radio" value="4">4</input>
+  <input id="personality_8_5" name="group8" type="radio" value="5">5</input>
+  <input id="personality_8_6" name="group8" type="radio" value="6">6</input>
+  <input id="personality_8_7" name="group8" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>9. Ich habe eine hohe Empathie </b>
+  <br />
+
+  <input id="personality_9_1" name="group9" type="radio" value="1">1</input>
+  <input id="personality_9_2" name="group9" type="radio" value="2">2</input>
+  <input id="personality_9_3" name="group9" type="radio" value="3">3</input>
+  <input id="personality_9_4" name="group9" type="radio" value="4">4</input>
+  <input id="personality_9_5" name="group9" type="radio" value="5">5</input>
+  <input id="personality_9_6" name="group9" type="radio" value="6">6</input>
+  <input id="personality_9_7" name="group9" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>10. Ich habe oft Angst vor ungewissen Dingen</b>
+  <br />
+
+  <input id="personality_10_1" name="group10" type="radio" value="1">1</input>
+  <input id="personality_10_2" name="group10" type="radio" value="2">2</input>
+  <input id="personality_10_3" name="group10" type="radio" value="3">3</input>
+  <input id="personality_10_4" name="group10" type="radio" value="4">4</input>
+  <input id="personality_10_5" name="group10" type="radio" value="5">5</input>
+  <input id="personality_10_6" name="group10" type="radio" value="6">6</input>
+  <input id="personality_10_7" name="group10" type="radio" value="7">7</input>
+
+  <br />
+  <br>
+  <b>11. Ich habe viele außergewöhnliche Ideen</b>
+  <br />
+
+  <input id="personality_11_1" name="group11" type="radio" value="1">1</input>
+  <input id="personality_11_2" name="group11" type="radio" value="2">2</input>
+  <input id="personality_11_3" name="group11" type="radio" value="3">3</input>
+  <input id="personality_11_4" name="group11" type="radio" value="4">4</input>
+  <input id="personality_11_5" name="group11" type="radio" value="5">5</input>
+  <input id="personality_11_6" name="group11" type="radio" value="6">6</input>
+  <input id="personality_11_7" name="group11" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>12. Mir fällt es schwer im Chaos den Überblick zu behalten</b>
+  <br />
+
+  <input id="personality_12_1" name="group12" type="radio" value="1">1</input>
+  <input id="personality_12_2" name="group12" type="radio" value="2">2</input>
+  <input id="personality_12_3" name="group12" type="radio" value="3">3</input>
+  <input id="personality_12_4" name="group12" type="radio" value="4">4</input>
+  <input id="personality_12_5" name="group12" type="radio" value="5">5</input>
+  <input id="personality_12_6" name="group12" type="radio" value="6">6</input>
+  <input id="personality_12_7" name="group12" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>13. Wenn ich auf einer Party bin, dann fühle ich mich danach extrem ausgelaugt </b>
+  <br />
+
+  <input id="personality_13_1" name="group13" type="radio" value="1">1</input>
+  <input id="personality_13_2" name="group13" type="radio" value="2">2</input>
+  <input id="personality_13_3" name="group13" type="radio" value="3">3</input>
+  <input id="personality_13_4" name="group13" type="radio" value="4">4</input>
+  <input id="personality_13_5" name="group13" type="radio" value="5">5</input>
+  <input id="personality_13_6" name="group13" type="radio" value="6">6</input>
+  <input id="personality_13_7" name="group13" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>14. Ich bin sehr verträglich</b>
+  <br />
+
+  <input id="personality_14_1" name="group14" type="radio" value="1">1</input>
+  <input id="personality_14_2" name="group14" type="radio" value="2">2</input>
+  <input id="personality_14_3" name="group14" type="radio" value="3">3</input>
+  <input id="personality_14_4" name="group14" type="radio" value="4">4</input>
+  <input id="personality_14_5" name="group14" type="radio" value="5">5</input>
+  <input id="personality_14_6" name="group14" type="radio" value="6">6</input>
+  <input id="personality_14_7" name="group14" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>15. Ich komme mit Rückschlägen nicht wirklich klar </b>
+  <br />
+
+  <input id="personality_15_1" name="group15" type="radio" value="1">1</input>
+  <input id="personality_15_2" name="group15" type="radio" value="2">2</input>
+  <input id="personality_15_3" name="group15" type="radio" value="3">3</input>
+  <input id="personality_15_4" name="group15" type="radio" value="4">4</input>
+  <input id="personality_15_5" name="group15" type="radio" value="5">5</input>
+  <input id="personality_15_6" name="group15" type="radio" value="6">6</input>
+  <input id="personality_15_7" name="group15" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>16. Ich bin sehr wissbegierig</b>
+  <br />
+
+  <input id="personality_16_1" name="group16" type="radio" value="1">1</input>
+  <input id="personality_16_2" name="group16" type="radio" value="2">2</input>
+  <input id="personality_16_3" name="group16" type="radio" value="3">3</input>
+  <input id="personality_16_4" name="group16" type="radio" value="4">4</input>
+  <input id="personality_16_5" name="group16" type="radio" value="5">5</input>
+  <input id="personality_16_6" name="group16" type="radio" value="6">6</input>
+  <input id="personality_16_7" name="group16" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>17. Ich besitze ein starkes Durchhaltevermögen</b>
+  <br />
+
+  <input id="personality_17_1" name="group17" type="radio" value="1">1</input>
+  <input id="personality_17_2" name="group17" type="radio" value="2">2</input>
+  <input id="personality_17_3" name="group17" type="radio" value="3">3</input>
+  <input id="personality_17_4" name="group17" type="radio" value="4">4</input>
+  <input id="personality_17_5" name="group17" type="radio" value="5">5</input>
+  <input id="personality_17_6" name="group17" type="radio" value="6">6</input>
+  <input id="personality_17_7" name="group17" type="radio" value="7">7</input>
+  <br>
+  <br>
+  <b>18. Ich bin enthusiastisch</b>
+  <br />
+
+  <input id="personality_18_1" name="group18" type="radio" value="1">1</input>
+  <input id="personality_18_2" name="group18" type="radio" value="2">2</input>
+  <input id="personality_18_3" name="group18" type="radio" value="3">3</input>
+  <input id="personality_18_4" name="group18" type="radio" value="4">4</input>
+  <input id="personality_18_5" name="group18" type="radio" value="5">5</input>
+  <input id="personality_18_6" name="group18" type="radio" value="6">6</input>
+  <input id="personality_18_7" name="group18" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>19. Ich bin sehr höflich</b>
+  <br />
+
+  <input id="personality_19_1" name="group19" type="radio" value="1">1</input>
+  <input id="personality_19_2" name="group19" type="radio" value="2">2</input>
+  <input id="personality_19_3" name="group19" type="radio" value="3">3</input>
+  <input id="personality_19_4" name="group19" type="radio" value="4">4</input>
+  <input id="personality_19_5" name="group19" type="radio" value="5">5</input>
+  <input id="personality_19_6" name="group19" type="radio" value="6">6</input>
+  <input id="personality_19_7" name="group19" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>20. Wenn ich an die Zukunft denke, dann habe ich oft Angst</b>
+  <br />
+
+  <input id="personality_20_1" name="group20" type="radio" value="1">1</input>
+  <input id="personality_20_2" name="group20" type="radio" value="2">2</input>
+  <input id="personality_20_3" name="group20" type="radio" value="3">3</input>
+  <input id="personality_20_4" name="group20" type="radio" value="4">4</input>
+  <input id="personality_20_5" name="group20" type="radio" value="5">5</input>
+  <input id="personality_20_6" name="group20" type="radio" value="6">6</input>
+  <input id="personality_20_7" name="group20" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>21. Ich lerne gerne neue Dinge</b>
+  <br />
+
+  <input id="personality_21_1" name="group21" type="radio" value="1">1</input>
+  <input id="personality_21_2" name="group21" type="radio" value="2">2</input>
+  <input id="personality_21_3" name="group21" type="radio" value="3">3</input>
+  <input id="personality_21_4" name="group21" type="radio" value="4">4</input>
+  <input id="personality_21_5" name="group21" type="radio" value="5">5</input>
+  <input id="personality_21_6" name="group21" type="radio" value="6">6</input>
+  <input id="personality_21_7" name="group21" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>22. Gehe ich eine beliebige Aufgabe an, dann mache ich mir zuerst immer einen genauen Plan wie ich das
+    durchführe</b>
+  <br />
+
+  <input id="personality_22_1" name="group22" type="radio" value="1">1</input>
+  <input id="personality_22_2" name="group22" type="radio" value="2">2</input>
+  <input id="personality_22_3" name="group22" type="radio" value="3">3</input>
+  <input id="personality_22_4" name="group22" type="radio" value="4">4</input>
+  <input id="personality_22_5" name="group22" type="radio" value="5">5</input>
+  <input id="personality_22_6" name="group22" type="radio" value="6">6</input>
+  <input id="personality_22_7" name="group22" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>23. Ich bin positiv</b>
+  <br />
+
+  <input id="personality_23_1" name="group23" type="radio" value="1">1</input>
+  <input id="personality_23_2" name="group23" type="radio" value="2">2</input>
+  <input id="personality_23_3" name="group23" type="radio" value="3">3</input>
+  <input id="personality_23_4" name="group23" type="radio" value="4">4</input>
+  <input id="personality_23_5" name="group23" type="radio" value="5">5</input>
+  <input id="personality_23_6" name="group23" type="radio" value="6">6</input>
+  <input id="personality_23_7" name="group23" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>24. Auch in Konfliktsituationen fällt mir immer eine Lösung ein </b>
+  <br />
+
+  <input id="personality_24_1" name="group24" type="radio" value="1">1</input>
+  <input id="personality_24_2" name="group24" type="radio" value="2">2</input>
+  <input id="personality_24_3" name="group24" type="radio" value="3">3</input>
+  <input id="personality_24_4" name="group24" type="radio" value="4">4</input>
+  <input id="personality_24_5" name="group24" type="radio" value="5">5</input>
+  <input id="personality_24_6" name="group24" type="radio" value="6">6</input>
+  <input id="personality_24_7" name="group24" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>25. Andere Menschen sind meist viel mutiger als ich </b>
+  <br />
+
+  <input id="personality_25_1" name="group25" type="radio" value="1">1</input>
+  <input id="personality_25_2" name="group25" type="radio" value="2">2</input>
+  <input id="personality_25_3" name="group25" type="radio" value="3">3</input>
+  <input id="personality_25_4" name="group25" type="radio" value="4">4</input>
+  <input id="personality_25_5" name="group25" type="radio" value="5">5</input>
+  <input id="personality_25_6" name="group25" type="radio" value="6">6</input>
+  <input id="personality_25_7" name="group25" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>26. Ich interessiere mich für sehr ausgefallene Dinge oder Bücher</b>
+  <br />
+
+  <input id="personality_26_1" name="group26" type="radio" value="1">1</input>
+  <input id="personality_26_2" name="group26" type="radio" value="2">2</input>
+  <input id="personality_26_3" name="group26" type="radio" value="3">3</input>
+  <input id="personality_26_4" name="group26" type="radio" value="4">4</input>
+  <input id="personality_26_5" name="group26" type="radio" value="5">5</input>
+  <input id="personality_26_6" name="group26" type="radio" value="6">6</input>
+  <input id="personality_26_7" name="group26" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>27. Andere geben meist schneller auf als ich</b>
+  <br />
+
+  <input id="personality_27_1" name="group27" type="radio" value="1">1</input>
+  <input id="personality_27_2" name="group27" type="radio" value="2">2</input>
+  <input id="personality_27_3" name="group27" type="radio" value="3">3</input>
+  <input id="personality_27_4" name="group27" type="radio" value="4">4</input>
+  <input id="personality_27_5" name="group27" type="radio" value="5">5</input>
+  <input id="personality_27_6" name="group27" type="radio" value="6">6</input>
+  <input id="personality_27_7" name="group27" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>28. Ich kann es genießen im Mittelpunkt zu stehen</b>
+  <br />
+
+  <input id="personality_28_1" name="group28" type="radio" value="1">1</input>
+  <input id="personality_28_2" name="group28" type="radio" value="2">2</input>
+  <input id="personality_28_3" name="group28" type="radio" value="3">3</input>
+  <input id="personality_28_4" name="group28" type="radio" value="4">4</input>
+  <input id="personality_28_5" name="group28" type="radio" value="5">5</input>
+  <input id="personality_28_6" name="group28" type="radio" value="6">6</input>
+  <input id="personality_28_7" name="group28" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>29. Andere Menschen mögen mich sehr schnell</b>
+  <br />
+
+  <input id="personality_29_1" name="group29" type="radio" value="1">1</input>
+  <input id="personality_29_2" name="group29" type="radio" value="2">2</input>
+  <input id="personality_29_3" name="group29" type="radio" value="3">3</input>
+  <input id="personality_29_4" name="group29" type="radio" value="4">4</input>
+  <input id="personality_29_5" name="group29" type="radio" value="5">5</input>
+  <input id="personality_29_6" name="group29" type="radio" value="6">6</input>
+  <input id="personality_29_7" name="group29" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>30. Mir ist es extrem wichtig Sicherheit zu haben</b>
+  <br />
+
+  <input id="personality_30_1" name="group30" type="radio" value="1">1</input>
+  <input id="personality_30_2" name="group30" type="radio" value="2">2</input>
+  <input id="personality_30_3" name="group30" type="radio" value="3">3</input>
+  <input id="personality_30_4" name="group30" type="radio" value="4">4</input>
+  <input id="personality_30_5" name="group30" type="radio" value="5">5</input>
+  <input id="personality_30_6" name="group30" type="radio" value="6">6</input>
+  <input id="personality_30_7" name="group30" type="radio" value="7">7</input>
+  <br>
+  <br />
+
+  <b>1. Ich muss sofort Geld verdienen, um mich über Wasser halten zu können </b>
+  <br />
+
+  <input id="jobtype_1_1" name="group31" type="radio" value="1">1</input>
+  <input id="jobtype_1_2" name="group31" type="radio" value="2">2</input>
+  <input id="jobtype_1_3" name="group31" type="radio" value="3">3</input>
+  <input id="jobtype_1_4" name="group31" type="radio" value="4">4</input>
+  <input id="jobtype_1_5" name="group31" type="radio" value="5">5</input>
+  <input id="jobtype_1_6" name="group31" type="radio" value="6">6</input>
+  <input id="jobtype_1_7" name="group31" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>2. Ich will eine klassische Ausbildung machen </b>
+  <br />
+
+  <input id="jobtype_2_1" name="group32" type="radio" value="1">1</input>
+  <input id="jobtype_2_2" name="group32" type="radio" value="2">2</input>
+  <input id="jobtype_2_3" name="group32" type="radio" value="3">3</input>
+  <input id="jobtype_2_4" name="group32" type="radio" value="4">4</input>
+  <input id="jobtype_2_5" name="group32" type="radio" value="5">5</input>
+  <input id="jobtype_2_6" name="group32" type="radio" value="6">6</input>
+  <input id="jobtype_2_7" name="group32" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>3. Ich will in den nächsten Jahren Freiheit genießen </b>
+  <br />
+
+  <input id="jobtype_3_1" name="group33" type="radio" value="1">1</input>
+  <input id="jobtype_3_2" name="group33" type="radio" value="2">2</input>
+  <input id="jobtype_3_3" name="group33" type="radio" value="3">3</input>
+  <input id="jobtype_3_4" name="group33" type="radio" value="4">4</input>
+  <input id="jobtype_3_5" name="group33" type="radio" value="5">5</input>
+  <input id="jobtype_3_6" name="group33" type="radio" value="6">6</input>
+  <input id="jobtype_3_7" name="group33" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>4. Ich will studieren, aber will mich nicht immer um Nebenjobs kümmern müssen</b>
+  <br />
+
+  <input id="jobtype_4_1" name="group34" type="radio" value="1">1</input>
+  <input id="jobtype_4_2" name="group34" type="radio" value="2">2</input>
+  <input id="jobtype_4_3" name="group34" type="radio" value="3">3</input>
+  <input id="jobtype_4_4" name="group34" type="radio" value="4">4</input>
+  <input id="jobtype_4_5" name="group34" type="radio" value="5">5</input>
+  <input id="jobtype_4_6" name="group34" type="radio" value="6">6</input>
+  <input id="jobtype_4_7" name="group34" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>5. Ich könnte jetzt auch ein paar Monate von meinen Ersparnissen leben</b>
+  <br />
+
+  <input id="jobtype_5_1" name="group35" type="radio" value="1">1</input>
+  <input id="jobtype_5_2" name="group35" type="radio" value="2">2</input>
+  <input id="jobtype_5_3" name="group35" type="radio" value="3">3</input>
+  <input id="jobtype_5_4" name="group35" type="radio" value="4">4</input>
+  <input id="jobtype_5_5" name="group35" type="radio" value="5">5</input>
+  <input id="jobtype_5_6" name="group35" type="radio" value="6">6</input>
+  <input id="jobtype_5_7" name="group35" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>6. Ich habe keine Lust auf eine Ausbildung oder ein Studium</b>
+  <br />
+
+  <input id="jobtype_6_1" name="group36" type="radio" value="1">1</input>
+  <input id="jobtype_6_2" name="group36" type="radio" value="2">2</input>
+  <input id="jobtype_6_3" name="group36" type="radio" value="3">3</input>
+  <input id="jobtype_6_4" name="group36" type="radio" value="4">4</input>
+  <input id="jobtype_6_5" name="group36" type="radio" value="5">5</input>
+  <input id="jobtype_6_6" name="group36" type="radio" value="6">6</input>
+  <input id="jobtype_6_7" name="group36" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>7. Ich will schon eine Ausbildung haben aber der Leistungsdruck in einem Studium ist mir zu hoch</b>
+  <br />
+
+  <input id="jobtype_7_1" name="group37" type="radio" value="1">1</input>
+  <input id="jobtype_7_2" name="group37" type="radio" value="2">2</input>
+  <input id="jobtype_7_3" name="group37" type="radio" value="3">3</input>
+  <input id="jobtype_7_4" name="group37" type="radio" value="4">4</input>
+  <input id="jobtype_7_5" name="group37" type="radio" value="5">5</input>
+  <input id="jobtype_7_6" name="group37" type="radio" value="6">6</input>
+  <input id="jobtype_7_7" name="group37" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>8. Ich will in den 20 ern meines Lebens viel Spaß und Freizeit habenn</b>
+  <br />
+
+  <input id="jobtype_8_1" name="group38" type="radio" value="1">1</input>
+  <input id="jobtype_8_2" name="group38" type="radio" value="2">2</input>
+  <input id="jobtype_8_3" name="group38" type="radio" value="3">3</input>
+  <input id="jobtype_8_4" name="group38" type="radio" value="4">4</input>
+  <input id="jobtype_8_5" name="group38" type="radio" value="5">5</input>
+  <input id="jobtype_8_6" name="group38" type="radio" value="6">6</input>
+  <input id="jobtype_8_7" name="group38" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>9. Ich will unbedingt Karriere machen und bin bereit früh auf Freizeit zu verzichten</b>
+  <br />
+
+  <input id="jobtype_9_1" name="group39" type="radio" value="1">1</input>
+  <input id="jobtype_9_2" name="group39" type="radio" value="2">2</input>
+  <input id="jobtype_9_3" name="group39" type="radio" value="3">3</input>
+  <input id="jobtype_9_4" name="group39" type="radio" value="4">4</input>
+  <input id="jobtype_9_5" name="group39" type="radio" value="5">5</input>
+  <input id="jobtype_9_6" name="group39" type="radio" value="6">6</input>
+  <input id="jobtype_9_7" name="group39" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>10. Ich bin bereit jahrelang zu leiden</b>
+  <br />
+
+  <input id="jobtype_10_1" name="group40" type="radio" value="1">1</input>
+  <input id="jobtype_10_2" name="group40" type="radio" value="2">2</input>
+  <input id="jobtype_10_3" name="group40" type="radio" value="3">3</input>
+  <input id="jobtype_10_4" name="group40" type="radio" value="4">4</input>
+  <input id="jobtype_10_5" name="group40" type="radio" value="5">5</input>
+  <input id="jobtype_10_6" name="group40" type="radio" value="6">6</input>
+  <input id="jobtype_10_7" name="group40" type="radio" value="7">7</input>
+
+  <br />
+  <br>
+  <b>11. Ich will direkt anfangen zu arbeiten</b>
+  <br />
+
+  <input id="jobtype_11_1" name="group41" type="radio" value="1">1</input>
+  <input id="jobtype_11_2" name="group41" type="radio" value="2">2</input>
+  <input id="jobtype_11_3" name="group41" type="radio" value="3">3</input>
+  <input id="jobtype_11_4" name="group41" type="radio" value="4">4</input>
+  <input id="jobtype_11_5" name="group41" type="radio" value="5">5</input>
+  <input id="jobtype_11_6" name="group41" type="radio" value="6">6</input>
+  <input id="jobtype_11_7" name="group41" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>12. Mir ist Karriere nicht so wichtig und ich will lieber ein geregeltes Leben mit viel Freizeit </b>
+  <br />
+
+  <input id="jobtype_12_1" name="group42" type="radio" value="1">1</input>
+  <input id="jobtype_12_2" name="group42" type="radio" value="2">2</input>
+  <input id="jobtype_12_3" name="group42" type="radio" value="3">3</input>
+  <input id="jobtype_12_4" name="group42" type="radio" value="4">4</input>
+  <input id="jobtype_12_5" name="group42" type="radio" value="5">5</input>
+  <input id="jobtype_12_6" name="group42" type="radio" value="6">6</input>
+  <input id="jobtype_12_7" name="group42" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>13. Mich interessieren theoretische Aspekte extrem stark</b>
+  <br />
+
+  <input id="jobtype_13_1" name="group43" type="radio" value="1">1</input>
+  <input id="jobtype_13_2" name="group43" type="radio" value="2">2</input>
+  <input id="jobtype_13_3" name="group43" type="radio" value="3">3</input>
+  <input id="jobtype_13_4" name="group43" type="radio" value="4">4</input>
+  <input id="jobtype_13_5" name="group43" type="radio" value="5">5</input>
+  <input id="jobtype_13_6" name="group43" type="radio" value="6">6</input>
+  <input id="jobtype_13_7" name="group43" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>14. Ich will Theorie und Praxis meiner Studieninhalte verbinden </b>
+  <br />
+
+  <input id="jobtype_14_1" name="group44" type="radio" value="1">1</input>
+  <input id="jobtype_14_2" name="group44" type="radio" value="2">2</input>
+  <input id="jobtype_14_3" name="group44" type="radio" value="3">3</input>
+  <input id="jobtype_14_4" name="group44" type="radio" value="4">4</input>
+  <input id="jobtype_14_5" name="group44" type="radio" value="5">5</input>
+  <input id="jobtype_14_6" name="group44" type="radio" value="6">6</input>
+  <input id="jobtype_14_7" name="group44" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>15. Ich bin bereit ein Risiko einzugehen, damit ich später einmal mehr habe </b>
+  <br />
+
+  <input id="jobtype_15_1" name="group45" type="radio" value="1">1</input>
+  <input id="jobtype_15_2" name="group45" type="radio" value="2">2</input>
+  <input id="jobtype_15_3" name="group45" type="radio" value="3">3</input>
+  <input id="jobtype_15_4" name="group45" type="radio" value="4">4</input>
+  <input id="jobtype_15_5" name="group45" type="radio" value="5">5</input>
+  <input id="jobtype_15_6" name="group45" type="radio" value="6">6</input>
+  <input id="jobtype_15_7" name="group45" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>16. Ich will sofort Geld verdienen und bin bereit langfristig auf mehr Geld zu verzichten</b>
+  <br />
+
+  <input id="jobtype_16_1" name="group46" type="radio" value="1">1</input>
+  <input id="jobtype_16_2" name="group46" type="radio" value="2">2</input>
+  <input id="jobtype_16_3" name="group46" type="radio" value="3">3</input>
+  <input id="jobtype_16_4" name="group46" type="radio" value="4">4</input>
+  <input id="jobtype_16_5" name="group46" type="radio" value="5">5</input>
+  <input id="jobtype_16_6" name="group46" type="radio" value="6">6</input>
+  <input id="jobtype_16_7" name="group46" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>17. Mir ist es wichtig eine persönliche Betreuung zu haben, während ich einen Beruf erlerne </b>
+  <br />
+
+  <input id="jobtype_17_1" name="group47" type="radio" value="1">1</input>
+  <input id="jobtype_17_2" name="group47" type="radio" value="2">2</input>
+  <input id="jobtype_17_3" name="group47" type="radio" value="3">3</input>
+  <input id="jobtype_17_4" name="group47" type="radio" value="4">4</input>
+  <input id="jobtype_17_5" name="group47" type="radio" value="5">5</input>
+  <input id="jobtype_17_6" name="group47" type="radio" value="6">6</input>
+  <input id="jobtype_17_7" name="group47" type="radio" value="7">7</input>
+  <br>
+  <br>
+  <b>18. Ich kann mir gut vorstellen einmal zu studieren</b>
+  <br />
+
+  <input id="jobtype_18_1" name="group48" type="radio" value="1">1</input>
+  <input id="jobtype_18_2" name="group48" type="radio" value="2">2</input>
+  <input id="jobtype_18_3" name="group48" type="radio" value="3">3</input>
+  <input id="jobtype_18_4" name="group48" type="radio" value="4">4</input>
+  <input id="jobtype_18_5" name="group48" type="radio" value="5">5</input>
+  <input id="jobtype_18_6" name="group48" type="radio" value="6">6</input>
+  <input id="jobtype_18_7" name="group48" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>19. Praxiserfahrung in einem Beruf ist mir ganz wichtig </b>
+  <br />
+
+  <input id="jobtype_19_1" name="group49" type="radio" value="1">1</input>
+  <input id="jobtype_19_2" name="group49" type="radio" value="2">2</input>
+  <input id="jobtype_19_3" name="group49" type="radio" value="3">3</input>
+  <input id="jobtype_19_4" name="group49" type="radio" value="4">4</input>
+  <input id="jobtype_19_5" name="group49" type="radio" value="5">5</input>
+  <input id="jobtype_19_6" name="group49" type="radio" value="6">6</input>
+  <input id="jobtype_19_7" name="group49" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>20. Ich will mit meinen Ideen die Welt verändern </b>
+  <br />
+
+  <input id="jobtype_20_1" name="group50" type="radio" value="1">1</input>
+  <input id="jobtype_20_2" name="group50" type="radio" value="2">2</input>
+  <input id="jobtype_20_3" name="group50" type="radio" value="3">3</input>
+  <input id="jobtype_20_4" name="group50" type="radio" value="4">4</input>
+  <input id="jobtype_20_5" name="group50" type="radio" value="5">5</input>
+  <input id="jobtype_20_6" name="group50" type="radio" value="6">6</input>
+  <input id="jobtype_20_7" name="group50" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>21. Ich habe nicht genügend Durchhaltevermögen, um eine Ausbildung oder ein Studium durchzuhalten </b>
+  <br />
+
+  <input id="jobtype_21_1" name="group51" type="radio" value="1">1</input>
+  <input id="jobtype_21_2" name="group51" type="radio" value="2">2</input>
+  <input id="jobtype_21_3" name="group51" type="radio" value="3">3</input>
+  <input id="jobtype_21_4" name="group51" type="radio" value="4">4</input>
+  <input id="jobtype_21_5" name="group51" type="radio" value="5">5</input>
+  <input id="jobtype_21_6" name="group51" type="radio" value="6">6</input>
+  <input id="jobtype_21_7" name="group51" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>22. Ich möchte später einmal ein Teil des Systems sein</b>
+  <br />
+
+  <input id="jobtype_22_1" name="group52" type="radio" value="1">1</input>
+  <input id="jobtype_22_2" name="group52" type="radio" value="2">2</input>
+  <input id="jobtype_22_3" name="group52" type="radio" value="3">3</input>
+  <input id="jobtype_22_4" name="group52" type="radio" value="4">4</input>
+  <input id="jobtype_22_5" name="group52" type="radio" value="5">5</input>
+  <input id="jobtype_22_6" name="group52" type="radio" value="6">6</input>
+  <input id="jobtype_22_7" name="group52" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>23. Ich will mich noch nicht direkt festlegen, was ich einmal im Leben machen möchte, denn </b>
+  <br />
+
+  <input id="jobtype_23_1" name="group53" type="radio" value="1">1</input>
+  <input id="jobtype_23_2" name="group53" type="radio" value="2">2</input>
+  <input id="jobtype_23_3" name="group53" type="radio" value="3">3</input>
+  <input id="jobtype_23_4" name="group53" type="radio" value="4">4</input>
+  <input id="jobtype_23_5" name="group53" type="radio" value="5">5</input>
+  <input id="jobtype_23_6" name="group53" type="radio" value="6">6</input>
+  <input id="jobtype_23_7" name="group53" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>24. Ich bin bereit mein Leben dem Beruf zu verschreiben</b>
+  <br />
+
+  <input id="jobtype_24_1" name="group54" type="radio" value="1">1</input>
+  <input id="jobtype_24_2" name="group54" type="radio" value="2">2</input>
+  <input id="jobtype_24_3" name="group54" type="radio" value="3">3</input>
+  <input id="jobtype_24_4" name="group54" type="radio" value="4">4</input>
+  <input id="jobtype_24_5" name="group54" type="radio" value="5">5</input>
+  <input id="jobtype_24_6" name="group54" type="radio" value="6">6</input>
+  <input id="jobtype_24_7" name="group54" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>25. Ich will unbedingt einmal mein eigener Chef sein</b>
+  <br />
+
+  <input id="jobtype_25_1" name="group55" type="radio" value="1">1</input>
+  <input id="jobtype_25_2" name="group55" type="radio" value="2">2</input>
+  <input id="jobtype_25_3" name="group55" type="radio" value="3">3</input>
+  <input id="jobtype_25_4" name="group55" type="radio" value="4">4</input>
+  <input id="jobtype_25_5" name="group55" type="radio" value="5">5</input>
+  <input id="jobtype_25_6" name="group55" type="radio" value="6">6</input>
+  <input id="jobtype_25_7" name="group55" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>26. Ich will direkt anfangen zu arbeiten und möglichst viel Geld verdienen </b>
+  <br />
+
+  <input id="jobtype_26_1" name="group56" type="radio" value="1">1</input>
+  <input id="jobtype_26_2" name="group56" type="radio" value="2">2</input>
+  <input id="jobtype_26_3" name="group56" type="radio" value="3">3</input>
+  <input id="jobtype_26_4" name="group56" type="radio" value="4">4</input>
+  <input id="jobtype_26_5" name="group56" type="radio" value="5">5</input>
+  <input id="jobtype_26_6" name="group56" type="radio" value="6">6</input>
+  <input id="jobtype_26_7" name="group56" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+  <b>27. Ich will einen sicheren Beruf haben und schon nach meinem Schulabschluss Geld verdienen </b>
+  <br />
+
+  <input id="jobtype_27_1" name="group57" type="radio" value="1">1</input>
+  <input id="jobtype_27_2" name="group57" type="radio" value="2">2</input>
+  <input id="jobtype_27_3" name="group57" type="radio" value="3">3</input>
+  <input id="jobtype_27_4" name="group57" type="radio" value="4">4</input>
+  <input id="jobtype_27_5" name="group57" type="radio" value="5">5</input>
+  <input id="jobtype_27_6" name="group57" type="radio" value="6">6</input>
+  <input id="jobtype_27_7" name="group57" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>28. Ich will etwas studieren, womit ich fett Karriere machen kann. </b>
+  <br />
+
+  <input id="jobtype_28_1" name="group58" type="radio" value="1">1</input>
+  <input id="jobtype_28_2" name="group58" type="radio" value="2">2</input>
+  <input id="jobtype_28_3" name="group58" type="radio" value="3">3</input>
+  <input id="jobtype_28_4" name="group58" type="radio" value="4">4</input>
+  <input id="jobtype_28_5" name="group58" type="radio" value="5">5</input>
+  <input id="jobtype_28_6" name="group58" type="radio" value="6">6</input>
+  <input id="jobtype_28_7" name="group58" type="radio" value="7">7</input>
+  <br>
+ 
+  <br />
+  <b>29. Ich bin bereit viel Stress zu ertragen, während andere Spaß haben </b>
+  <br />
+
+  <input id="jobtype_29_1" name="group59" type="radio" value="1">1</input>
+  <input id="jobtype_29_2" name="group59" type="radio" value="2">2</input>
+  <input id="jobtype_29_3" name="group59" type="radio" value="3">3</input>
+  <input id="jobtype_29_4" name="group59" type="radio" value="4">4</input>
+  <input id="jobtype_29_5" name="group59" type="radio" value="5">5</input>
+  <input id="jobtype_29_6" name="group59" type="radio" value="6">6</input>
+  <input id="jobtype_29_7" name="group59" type="radio" value="7">7</input>
+  <br>
+  <br>
+
+  <b>30. Ich kann mir keinesfalls vorstellen ein Teil des Systems zu sein</b>
+  <br />
+
+  <input id="jobtype_30_1" name="group60" type="radio" value="1">1</input>
+  <input id="jobtype_30_2" name="group60" type="radio" value="2">2</input>
+  <input id="jobtype_30_3" name="group60" type="radio" value="3">3</input>
+  <input id="jobtype_30_4" name="group60" type="radio" value="4">4</input>
+  <input id="jobtype_30_5" name="group60" type="radio" value="5">5</input>
+  <input id="jobtype_30_6" name="group60" type="radio" value="6">6</input>
+  <input id="jobtype_30_7" name="group60" type="radio" value="7">7</input>
+  <br>
+
+  <br />
+
+  <button id="button_select">Klicke hier</button>
+
+
+  <script src="js/arbeitslose_realschulabschluss.js"></script>
+</body>
+
+</html>
