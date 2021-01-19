@@ -16,7 +16,7 @@ to build a web app which gives all users a very good prediction about what they 
 - how can this project be different from other personality or jobs tests? 
 Pretty much all job tests tests have 3 main problems.
 They take either too much time, give bad predictions or are not really honest tests and manipulate the user. 
-This test will take under 10 minutes, give a very exact prediction and gives honest feedback to the user. 
+This test will take under 10 minutes, give a very exact prediction and honest feedback to the user. 
 
 # Code related information
 
