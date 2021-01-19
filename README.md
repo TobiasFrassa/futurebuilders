@@ -3,7 +3,6 @@ This project is a side project from me which I did during my studies in my free 
 It is a job test that will create a personality analysis in combination with a job recommendation for the user. 
 The basic idea of this is that today there are so many people that do not know what to do and where to start.
 But everyone has a certain personality type and preferences that will already increase the success to be good at certain jobs and to like them. 
-So why not gather this information and give a job prediction that will bring value to the user? 
 
 
 # Common information
