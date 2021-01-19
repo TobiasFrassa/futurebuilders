@@ -1,12 +1,12 @@
 # Futurebuilders
 This is a side project which I started during my studies in my free time. 
 It is a job test that will create a personality analysis in combination with a job recommendation for the user. 
-The basic idea of this is that today there are so many people that do not know what to do and where to start.
+The basic idea of this test is that today there are so many people that do not know what to do and where to start.
 But everyone has a certain personality type and preferences that will already increase the success to be good at certain jobs and to like them. 
 So this test gathers the neccessary data and gives a job prediction that the user will most likely enjoy working and be good at.
 
 
-# Common information
+# Common information (jump down for code related information) 
 
 - the long term mission of this project is
 to build a web app which gives all users a very good prediction about what they are good at and what they like to do. 
