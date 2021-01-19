@@ -1,5 +1,5 @@
 # Futurebuilders
-This is a side project which I started during my studies in my free time. 
+This is a side project which I coded in Javascript with a little bit of HTML in order to make it run in a browser.
 It is a job test that will create a personality analysis in combination with a job recommendation for the user. 
 The basic idea of this test is that today there are so many people that do not know what to do and where to start.
 But everyone has a certain personality type and preferences that will already increase the success to be good at certain jobs and to like them. 
