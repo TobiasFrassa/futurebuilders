@@ -6,12 +6,12 @@ that can already narrow down the number of jobs who fit for a person.
 
 # Common information
 
-- long term mission of this project 
-Building a web app which gives all the people who do not know what they like and what they are good at,
+- long term mission of this project is
+building a web app which gives all the people who do not know what they like and what they are good at,
 a very good prediction about what they are good at and what they like to do. 
 
-- hhich problem can this project solve?
-Reducing the complexity of making the decision which career to choose in a world with literally endless job opportunities. 
+- This project could solve the problem of 
+reducing the complexity of making the decision which career to choose in a world with literally endless job opportunities. 
 
 - how can this project be different from other personality or jobs tests? 
 Pretty much all job tests tests have 3 main problems.
