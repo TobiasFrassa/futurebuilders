@@ -6,7 +6,7 @@ But everyone has a certain personality type and preferences that will already in
 So this test gathers the neccessary data and gives a job prediction that the user will most likely enjoy working and be good at.
 
 
-# Common information (code related information below) 
+# Common information 
 
 - the long term mission of this project is
 to build a web app which gives all users a very good prediction about what they are good at and what they like to do. 
@@ -21,7 +21,7 @@ This test will take under 10 minutes, give a very exact prediction and honest fe
 # Code related information
 
 1. The user starts on the index.html page
-- here the user enters very few basic information according to which he will be categorized in his relevant domain 
+- here the user enters very few basic informations according to which he will be categorized in his relevant domain 
 - for example in the category for women who are still at school and already have successfully passed class 10 
 - the index.js evaluates the entered information and forwards the user to a page which is customized for a certain user profile
 - let us assume that an example user enters that she is female, she is still in school and has succesfully passed 10th grade
