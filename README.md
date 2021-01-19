@@ -9,7 +9,7 @@ So this test gathers the neccessary data and gives a job prediction that the use
 # Common information
 
 - The long term mission of this project is
-to build a web app which gives all the people a very good prediction about what they are good at and what they like to do. 
+to build a web app which gives all users a very good prediction about what they are good at and what they like to do. 
 
 - This project could solve the problem of all the complexity involved in making the decision which career to choose in a world with literally endless job opportunities. 
 
