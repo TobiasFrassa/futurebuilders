@@ -6,7 +6,7 @@ But everyone has a certain personality type and preferences that will already in
 So this test gathers the neccessary data and gives a job prediction that the user will most likely enjoy working and be good at.
 
 
-# Common information (jump down for code related information) 
+# Common information (scroll down for code related information) 
 
 - the long term mission of this project is
 to build a web app which gives all users a very good prediction about what they are good at and what they like to do. 
